@@ -1,0 +1,11 @@
+use harish_db;
+create table employees(id int primary key auto_increment, name varchar(50) not null, designation varchar(40) not null, technology varchar(30) not null, phone_num bigint unique, commission int, salary float default 0, years_of_exp int);
+select * from employee;
+insert into employees(name,designation,technology,phone_num,commission,salary,years_of_exp)values('mallesh','manager','python','9585367536',10, '1025205',2);
+insert into employees(name,designation,technology,phone_num,commission,salary,years_of_exp)values('harish','software engineer','java','8310441210',13, '1025275',3);
+insert into employees(name,designation,technology,phone_num,commission,salary,years_of_exp)values('manoj','Hardware engineer','C sharp','9585367576',11, '5825205',4);
+insert into employees(name,designation,technology,phone_num,commission,salary,years_of_exp)values('anirudh','principal','M-tech','7185367536',18, '1089205',2);
+insert into employees(name,designation,technology,phone_num,commission,salary,years_of_exp)values('mallesh','manager','python','9585367516',10, '1025264',5);
+insert into employees(name,designation,technology,phone_num,commission,salary,years_of_exp)values('girish','head maneger','python','9583267536',10, '1025205',6);
+insert into employees(name,designation,technology,phone_num,commission,salary,years_of_exp)values('tejas','teacher','python','9585364236',10, '1023105',8);
+insert into employees(name,designation,technology,phone_num,commission,salary,years_of_exp)values('suresh','intern','python','9585392536',10, '1022105',9);
